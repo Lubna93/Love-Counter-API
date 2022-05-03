@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light+Two&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #c31432; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #c31432, #240b36); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #c31432, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+   text-align: center;
+   color: white;
+   margin-top: 100px;
+   font-family: 'Shadows Into Light Two', cursive;
+   letter-spacing: 5px;
+   font-weight: bold;
+}
+label{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+    font-family: 'Dancing Script';
+}
+form{
+    width: 50%;
+    /* margin-top: 10%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+input[type=text]{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px 20px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    transition: all 0.30s ease-in-out;
+    border: 1px solid #DDDDDD;
+    outline: none;
+    font-family: 'Dancing Script';
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+input[type=text]:focus{
+    box-shadow: 0 0 5px black;
+    border: 1px solid black;
+      
+}
+input[type=submit]{
+    background-color: #42378f;
+    background-image: linear-gradient(315deg, #42378f 0%, #f53844 74%);
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-family: 'Shadows Into Light Two', cursive;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    max-width: 100%;
+    /* width: 400px; */
+    transition: all 0.1s;
+  }
+  input[type=submit]:active{
+    transform: translate(0px,5px);
+    
+
+  }
+  /* BARRE */
+
+#container {
+    display: none;
+    
+  }
+#containerDisplay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+small{
+    color : white;
+    width: 200px;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    font-family: 'Dancing Script';
+    letter-spacing: 2px;
+}
